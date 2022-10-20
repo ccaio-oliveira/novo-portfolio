@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css';
-import Home from './components/Home/Home';
+import App from './components/App';
 
 const root = ReactDOM.createRoot(document.querySelector('#root'));
 
 root.render(
     <>
-        <Home />
+        <App />
     </>
 );
